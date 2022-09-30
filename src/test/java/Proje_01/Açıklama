@@ -1,0 +1,53 @@
+PROJECT - 3 ->English
+This project is testing the http://demowebshop.tricentis.com/
+• There are 2 functionalities you should be testing.
+• Test these 2 functionalities with Selenium and Java.
+• Use explicit wait as much as you can!
+Try to not use Thread.sleep.(You will need a lot of waits for this website!
+BE CAREFUL :))
+• Pre-Condition: Create an account on the page before starting to automate and
+
+Automate Following Test Scenarios
+SCENARIO 1 | Login Functionality Test - Positive Scenario:
+-You should navigate to the Login page and try to login with valid credentials.
+-Expected Result is successfully login!
+SCENARIO 2 | Login Functionality Test - Negative Scenario:
+-You should navigate to the Login page and try to login with invalid credentials.
+-Expected Result is “Login was unsuccessful. Please correct the errors and try again.
+● No customer account found” message should be displayed. Validate this message is
+displayed and validate text.
+SCENARIO 3 - Place an Order:
+-You should navigate to the website and login to your account.
+-You should select a product from HomePage and add to cart
+-You should complete proceed to checkout process
+-At the end you should verify the following success message! “Your order has been successfully
+processed
+
+
+PROJE - 3 -->Türkçe
+Bu proje http://demowebshop.tricentis.com/ adresini test ediyor.
+• Test etmeniz gereken 2 işlev vardır.
+• Bu 2 işlevi Selenium ve Java ile test edin.
+• Mümkün olduğu kadar açık beklemeyi kullanın!
+Thread.sleep'i kullanmamaya çalışın.(Bu site için çok beklemeniz gerekecek!
+DİKKAT OLMAK :))
+• Ön Koşul: Otomatikleştirmeye başlamadan önce sayfada bir hesap oluşturun ve
+bu hesabı otomasyon için kullanın.
+Aşağıdaki Test Senaryolarını Otomatikleştirin
+
+SENARYO 1 | Giriş İşlevsellik Testi - Olumlu Senaryo:
+-Giriş sayfasına gitmeli ve geçerli kimlik bilgileriyle giriş yapmayı denemelisiniz.
+-Beklenen Sonuç başarıyla giriş yapıldı!
+
+SENARYO 2 | Oturum Açma İşlevsellik Testi - Negatif Senaryo:
+-Giriş sayfasına gitmeli ve geçersiz kimlik bilgileriyle giriş yapmayı denemelisiniz.
+-Beklenen Sonuç “Giriş başarısız. Lütfen hataları düzeltip tekrar deneyin.
+● Müşteri hesabı bulunamadı” mesajı görüntülenmelidir. Bu mesajı doğrulayın
+görüntülenir ve metni doğrular.
+
+SENARYO 3 - Sipariş Ver:
+-Web sitesine gitmeli ve hesabınıza giriş yapmalısınız.
+-Ana Sayfadan ürün seçip sepete eklemelisiniz.
+-Ödeme işlemini tamamlamanız gerekir
+-Sonunda aşağıdaki başarı mesajını doğrulamanız gerekir! "Siparişiniz başarıyla alındı
+işlenmiş
